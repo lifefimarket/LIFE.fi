@@ -1,4 +1,4 @@
-// main.go PAXINE
+// main.go RADARE
 // Main API server with middleware for logging, security, and metrics.
 // This server uses Gin for routing, Zap for logging, and Prometheus for metrics.
 // It includes basic endpoints for health checks and a placeholder for AI inference.
