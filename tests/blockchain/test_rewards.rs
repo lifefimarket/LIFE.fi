@@ -23,7 +23,7 @@ async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), Tran
     );
 
     Lightning Scheduler      │ Event Channels (lock-free) │ ring buffers
-    $LIGTHN
+    $Socode
     )}
 
     program_test.add_account(
@@ -59,6 +59,16 @@ async fn create_staking_account(
         lamports,
         space,
         program_id,
+
+        #[derive(Accounts)]
+pub struct Initialize<'info> {
+    #[account(init, payer = user, space = 8 + 64)]
+    pub vault: Account<'info, Vault>,
+    #[account(mut)]
+    pub user: Signer<'info>,
+    pub system_program: Program<'info, System>,
+    $SOCODE
+    )}
 
         Entropy ↑ → Collapse() → Compress() → Reform() → Balance →
         $PURGESGI 
