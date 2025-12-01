@@ -1,91 +1,113 @@
-# ONCODE
+# HIP3ONE
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-ONCODE-blue?logo=google-chrome)](https://oncode.run/)
-[![Twitter](https://img.shields.io/badge/Twitter-ONCODE-blue?logo=twitter)](https://x.com/ONCODELAB)
+[![Website](https://img.shields.io/badge/Website-HIP3ONE-blue?logo=google-chrome)](https://hip3one.tech/)
+[![Twitter](https://img.shields.io/badge/Twitter-HIP3ONE-blue?logo=twitter)](https://x.com/HIP3ONEHYPE)
 
-```
-CA: 95m4WBHtg13zaxtuEPxuiVUfD6mHWyB1PgM4zgcFpump
-$ONCODE
+# **HIP3ONE — AI-Driven Framework for HIP-3 Markets on Hyperliquid**
 
-```
-
-# ONCODE — The Modular AI-Driven Development Framework for Solana
-
-On Solana, the real bottleneck is rarely the lack of ideas.
-It’s about how fast you can transform those ideas into reusable, maintainable, and scalable code.
-
-ONCODE is not “yet another framework.”
-It acts as an orchestration brain for code — connecting developers, templates, best practices, AI capabilities, and deployment flows into one cohesive system.
-
-ONCODE decomposes every Solana project into composable functional modules:
-
-• Token issuance, staking, locking, and revenue sharing
-• Access control, multisig, and role systems
-• NFT / collections and metadata management
-• Oracle integrations and prediction market logic
-• Integrations with Pumpfun / AMMs / liquidity tools, and more
-
-You don’t need to implement everything from scratch.
-With ONCODE’s module system, code graph, and AI assistant, you simply select modules, define architecture, generate code, run checks, and deploy.
+HIP3ONE helps developers deploy, monitor and optimize HIP-3 perpetual markets on Hyperliquid more safely and efficiently.  
+It automates parameter configuration, liquidity calibration and risk prevention to ensure stable and secure market operation from launch to maturity.
 
 ---
 
-## 🚀 Mission
+## 🚀 **Core Features**
 
-If you understand business logic, you should be able to launch on Solana.
-If you are already a developer, your productivity should feel like a different dimension.
-
-ONCODE makes Solana development modular, automated, and deployment-ready.
-
----
-
-## 🧩 Core Features
-
-### • Modular Composition
-Build Solana projects by combining plug-and-play functional modules rather than writing boilerplate.
-
-### • AI-Powered Scaffolding
-Describe your requirements, and ONCODE generates complete project structures and contract skeletons.
-
-### • Built-In Security Checks
-Static analysis, logic validation, and best-practice suggestions before deployment.
-
-### • Unified Deployment
-Deploy to Devnet, Testnet, or Mainnet in a single orchestrated action.
-
-### • GitHub / GitLab Ready
-Plug in your repository in under 60 seconds to sync versioning, commits, and collaboration.
+| Module | Description |
+|--------|-------------|
+| **AI Configuration Engine** | Generates optimal HIP-3 market parameters based on liquidity, volatility and risk modeling. |
+| **Liquidity Optimizer** | Continuously refines depth, slippage and funding dynamics in real time. |
+| **Risk Sentinel** | Detects dangerous market conditions and prevents slashing before it occurs. |
+| **Builder Control Dashboard** | Unified interface for deployment, monitoring and automated adjustments. |
 
 ---
 
-## 🧱 Workflow
+## 🧠 **Workflow**
 
-### 1. Build
-• Select modules — tokens, NFTs, roles, governance, staking, oracles, liquidity, and more.  
-• Generate scaffolding — ONCODE creates the full directory structure and core contract code.
+**1️⃣ Define Intent**  
+Select the asset and the intended market behavior (volatility tolerance, liquidity target, leverage profile, etc.).
 
-### 2. Ship
-• Run checks — execute safety validations and logic inspection.  
-• Deploy fast — push to Devnet, Testnet, or Mainnet instantly.
+**2️⃣ AI Configuration**  
+HIP3ONE simulates liquidity depth, volatility cycles and risk patterns to generate the optimal HIP-3 parameter set.
+
+**3️⃣ Deploy & Monitor**  
+Publish the HIP-3 market in one action and activate real-time performance and risk monitoring.
+
+**4️⃣ Continuous Optimization**  
+AI automatically adjusts critical parameters to reinforce liquidity stability and prevent slashing across the market lifecycle.
 
 ---
 
-## 📦 Example Code Snippet
+## 📌 **Key Metrics**
 
-```rust
-#[program]
-pub mod oncode_token {
-    use super::*;
+92% faster deployment — AI parameter modeling
+68% steadier liquidity — adaptive calibration
+0 slashing incidents — automated risk control
 
-    pub fn initialize(ctx: Context<Initialize>, supply: u64) -> Result<()> {
-        let token = &mut ctx.accounts.token;
-        token.authority = ctx.accounts.authority.key();
-        token.total_supply = supply;
-        Ok(())
-    }
-}
+
+---
+
+## ❓ **FAQ**
+
+**• What is HIP3ONE?**  
+HIP3ONE is an AI-driven framework for deploying, monitoring and optimizing HIP-3 perpetual markets on Hyperliquid.
+
+**• Does HIP3ONE replace the builder?**  
+No. Builders stay in full control — HIP3ONE automates complexity without taking ownership.
+
+**• Is coding experience required?**  
+No. HIP3ONE supports both dashboard-based usage and developer-focused API/SDK integrations.
+
+**• How does HIP3ONE prevent slashing?**  
+AI tracks liquidity risk, volatility stress, oracle deviation and unsafe funding dynamics — and intervenes before danger thresholds are reached.
+
+**• Can HIP3ONE manage existing HIP-3 markets?**  
+Yes. It works for both new deployments and ongoing optimization.
+
+---
+
+## 🔌 **Integration**
+
+| Interface | Status |
+|----------|--------|
+| Dashboard | ✔ Available |
+| REST API | ✔ In progress |
+| SDK (TypeScript) | ⏳ Planned |
+| SDK (Rust) | ⏳ Planned |
+
+Documentation and API references will be released soon.
+
+---
+
+## 🔒 **Security & Ownership**
+
+- HIP3ONE never takes custody of liquidity or user funds  
+- Builders approve all deployment actions  
+- Optimization rules remain transparent and override-controlled  
+- Full logs and version history for every parameter change
+
+---
+
+## 🌍 **Vision**
+
+HIP-3 unlocked permissionless perpetual markets.  
+HIP3ONE unlocks **intelligent deployment and autonomous optimization** — enabling markets to be launched once and operate safely with continuous AI support.
+
+---
+
+## 📬 **Contact / Community**
+
+Channels will be announced soon.  
+For early collaboration inquiries, please open an issue or reach out via GitHub Discussions.
+
+---
+
+### **Final Note**
+
+> **HIP3ONE is built for the builders — the future of HIP-3 market creation starts here.**
+
+
