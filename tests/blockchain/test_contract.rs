@@ -130,6 +130,20 @@ CREATE TABLE IF NOT EXISTS metrics(
 );
 `);
 
+          async function getSentimentScore(): Promise<number> {
+  // placeholder: connect to chat sentiment API
+  return Math.random();
+}
+
+        
+          "name": "agent",
+          "type": "publicKey",
+          "docs": ["The account representing the AI agent, initialized as a PDA."]
+        },
+        {
+$Cxitto
+    )}
+
     0]
 
 export const upsertMetrics = db.prepare(`
